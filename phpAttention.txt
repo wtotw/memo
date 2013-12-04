@@ -2,7 +2,7 @@
  -?>で閉じないとダメ
  -「Content-Type:,Location:」などは入れた方が無難
 
-・mysqliでのサイズ問題
+・mysqliでのアップロード時の最大サイズ変更
  php.ini
   ; Maximum allowed size for uploaded files.
   upload_max_filesize = 50M
