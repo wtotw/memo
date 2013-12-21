@@ -55,3 +55,6 @@
 
 ・pycron設定
  サービス開始しよう…
+
+・JavaScriptとの連携
+ SESSIONを使用しているとjaascript:history.back()をしても値が保持さず初期化される。
