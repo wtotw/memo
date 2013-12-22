@@ -57,4 +57,8 @@
  サービス開始しよう…
 
 ・JavaScriptとの連携
- SESSIONを使用しているとjaascript:history.back()をしても値が保持さず初期化される。
+ SESSIONを使用しているとjavascript:history.back()をしても値が保持さず初期化される。
+
+・Safariでの挙動
+ javascript:history.back()で戻ってもonload,onunloadの挙動が期待した通りにならない。
+ onpageshow,onpagehideを利用すると動く。
